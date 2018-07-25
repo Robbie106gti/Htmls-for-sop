@@ -1,0 +1,37 @@
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.vertical-text {
+    transform: rotate(90deg);
+    transform-origin: top left 1;
+}
+
+.bordered td {
+    border: solid;
+    border-width: 1.5;
+}
+
+.bullets li {
+    list-style-type: disc;
+    padding-left: 10px;
+}
+
+.checkbox-bullets li {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.wide-margin {
+    padding-left: 20%;
+}
