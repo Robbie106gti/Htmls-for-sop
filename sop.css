@@ -17,14 +17,29 @@
     transform-origin: top left 1;
 }
 
-.bordered td {
+.bordered td,
+th {
     border: solid;
     border-width: 1.5;
 }
 
+.bordered-self {
+    border: solid;
+    border-width: 1.5
+}
+
+.no-border td,
+th {
+    border: none;
+}
+
+.no-border-self {
+    border: none;
+}
+
 .bullets li {
     list-style-type: disc;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .checkbox-bullets li {
@@ -38,4 +53,22 @@
 
 .wide-margin {
     padding-left: 20%;
+}
+
+.big-space {
+    padding-bottom: 200px;
+    padding-left: 50;
+    padding-top: 50;
+}
+
+.red text {
+    color: red;
+}
+
+.aphabetical {
+    list-style-type: lower-alpha;
+}
+
+.roman {
+    list-style-type: lower-roman;
 }
